@@ -1,5 +1,7 @@
 # Sound Analysis Application 
 
+- [Heart Sound Analysis (HSA)](HSA/)
+- [Preventive Maintenance (PM)](PM/)
 - [Keyword Spotting (KWS)](KWS/)
 
 # Introduction to Sound Analysis 
