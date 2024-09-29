@@ -301,6 +301,7 @@ conference (CinC), pp. 609–612, IEEE, 2016.
 
 8.1 Python Code for training the CNN
 ------------------------------
+```python
 import os
 import librosa
 import numpy as np
@@ -461,10 +462,11 @@ predict_wav_file(test_file, model)
 test_file = r'/home/divyaswarup/Training_Data_CAD_2016/training-e-normal-2016/e00055.wav'
 #test_file =  r'/home/divyaswarup/Training_Data_CAD_2016/training-e-normal-2016/e00055.wav'
 predict_wav_file(test_file, model)
-
+```
 
 8.2 Python Code for CVD Diagnosis
 ------------------------------
+```python
 #!/usr/bin/env python3
 
 import tensorflow as tf
@@ -526,3 +528,4 @@ if __name__ == '__main__':
 
     # Call the prediction function with the provided file path
     predict_wav_file(args.file_path, model)
+```
